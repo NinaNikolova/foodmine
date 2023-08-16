@@ -38,3 +38,44 @@ li a img{
     right: 1rem;
     font-size: 1.2rem;
 }
+.favorite.not{
+    color: gray;
+}
+.stars{
+    margin-bottom: 0.2rem;
+}
+.product-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* So, when you see flex: 9; in CSS, it's a shorthand way of setting flex-grow to 9, flex-shrink to 1, and flex-basis to its default value (which is usually auto */
+.origins{
+    flex:9;
+}
+.origins span{
+    border-radius: 2rem;
+    background-color: whitesmoke;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: gray;
+    margin-right: 0.3rem;
+    padding: 0 0.5rem;
+    margin-top: 0.2rem;
+}
+.cook-time{
+    font-size: 0.9rem;
+    flex: 3;
+    text-align: right;
+}
+.price{
+    position: absolute;
+    bottom: 0;
+    left: 0.9rem;
+    background: white;
+    padding: 0.3rem 100% 0 0;
+    color: #414141;
+    margin-top: 0.7rem;
+    font-size: 1.1rem;
+
+}

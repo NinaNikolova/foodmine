@@ -9,7 +9,7 @@ a{
 }
 a:hover{
     color: #e72929;
-    color: white;
+    color: lightgray;
     cursor: pointer;
 }
 .container{
