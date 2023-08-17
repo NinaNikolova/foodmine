@@ -79,3 +79,37 @@ li a img{
     font-size: 1.1rem;
 
 }
+.price::before{
+    content: "Price: ";
+    color: darkgrey;
+  }
+  
+  button{
+    color: white;
+    background: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+  }
+  
+  button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tags a{
+    background-color: #f0f0f0;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0.15rem;
+    border-radius: 10rem;
+    font-weight: 600;
+    color: blue;
+  }
+  
