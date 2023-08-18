@@ -10,9 +10,7 @@ export class SearchComponent implements OnInit {
   searchTerm = '';
   constructor(activatedRoute:ActivatedRoute,private router:Router) {
     activatedRoute.params.subscribe((params) => {
-      if(params.searchTerm){
-        this.searchTerm = params.searchTerm;
-      } 
+      if(params.searchTerm) this.searchTerm = params.searchTerm;
     });
    }
 
