@@ -19,10 +19,12 @@ this.cartService.getCartObservable().subscribe((cart)=>{
   ngOnInit(): void {  
   }
   removeFromCart(cartItem:CartItem){
-    this.cartService.removeFromCart(cartItem.food.id)
+    this.cartService.removeFromCart(cartItem.food.id);
   }
-  changeQuontity(cartItem: CartItem, quantityInString: string){
+
+  changeQuantity(cartItem:CartItem,quantityInString:string){
     const quantity = parseInt(quantityInString);
     this.cartService.changeQuantity(cartItem.food.id, quantity);
   }
+
 }
